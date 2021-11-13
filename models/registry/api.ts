@@ -161,6 +161,14 @@ const DEVNET_REALMS: RealmInfo[] = [
     programId: new PublicKey('GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw'),
     realmId: new PublicKey('5eZA8mX9pVXzgbA8oES1ismVSAAgsHkEipJbxvsVYb5d'),
   },
+  {
+    symbol: 'PART',
+    displayName: 'Pegasus Art',
+    programId: new PublicKey('bqTjmeob6XTdfh12px2fZq4aJMpfSY1R1nHZ44VgVZD'),
+    realmId: new PublicKey('8o1tcKzRsEFAWYzi7Ge2cyotCaQW6vt5f2dy2HkWmemg'),
+    ogImage: 'https://app.pegasusdao.com/assets/logo.png',
+    website: 'https://www.pegasusdao.com/',
+  },
 ]
 
 export function getAllRealmInfos(endpoint: EndpointTypes = 'mainnet') {
