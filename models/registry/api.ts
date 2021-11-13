@@ -110,6 +110,14 @@ const MAINNET_REALMS: RealmInfo[] = [
     ogImage: '/realms/21DAO/img/21dao_icon.png',
     website: 'https://21dao.xyz',
   },
+  {
+    symbol: 'PART',
+    displayName: 'Pegasus Art',
+    programId: new PublicKey('bqTjmeob6XTdfh12px2fZq4aJMpfSY1R1nHZ44VgVZD'),
+    realmId: new PublicKey('8o1tcKzRsEFAWYzi7Ge2cyotCaQW6vt5f2dy2HkWmemg'),
+    ogImage: 'https://app.pegasusdao.com/assets/logo.png',
+    website: 'https://www.pegasusdao.com/',
+  },
 ]
 
 // Hardcoded list of devnet realms
